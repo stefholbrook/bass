@@ -1,0 +1,63 @@
+html, body {
+  background-color: #161718;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.jumbotron {
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg);
+  background-size: cover;
+  background-color: transparent;
+  height: 560px;
+  padding: 50px; 
+}
+
+ul {
+	list-style: none;
+  display: inline;
+}
+
+li {
+	display: inline;
+  color: #fff;
+}
+
+.header .btn {
+	border: none;
+  background-color: #ff003d;
+  border-radius: 0;
+  padding: 8px 30px;
+  color: #fff;
+  margin: 20px;
+}
+
+.main {
+	margin-top: 100px;
+}
+
+.row {
+	padding-right: -15px;
+  padding-left: -15px;
+}
+
+.supporting-1, .supporting-2, .supporting-3, .supporting-4 {
+	padding: 70px 30px;
+}
+
+.supporting-4 {
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
